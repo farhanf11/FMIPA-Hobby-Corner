@@ -29,7 +29,7 @@
           style="margin-left: 90%; background: none; border: none"
         >
           <a
-            href="TentangKami.html"
+            href="<?php echo base_url('index.php/Welcome/tentangKami') ?>"
             class="rightTopBar"
             style="
               font-size: 12pt;
@@ -85,7 +85,7 @@
         >
         
           <a
-            href="login.html"
+            href="<?php echo base_url('index.php/Login/viewLogin') ?>"
             class="btn btn-primary"
             style="
               color: white;
