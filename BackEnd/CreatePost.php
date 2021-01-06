@@ -21,7 +21,7 @@
       <div class="container col-lg-8" id="Boxs">
         <div class="row" style="background-color: black; height: 40px">
           <div class="col-lg-12">
-          <a href="<?php echo base_url('index.php/Welcome/MainPage') ?>"></a>
+          <a href="<?php echo base_url('index.php/Welcome/main') ?>"></a>
             <button class="btn btn-danger float-right" style="margin: 5px; padding: 5px; padding-top: 1px; padding-bottom: 1px;">X</button>
           </div>
         </div>
@@ -50,12 +50,23 @@
                   <select class="form-control" name="tag" id="tag">
                     <option>Pilih Tag</option>
                     <option>Olahraga</option>
+                    <option>Bersepeda</option>
+                    <option>Walking</option>
+                    <option>Running</option>
                     <option>Memasak</option>
                     <option>Membaca</option>
                     <option>Menulis</option>
-                    <option>Bermain Game</option>
+                    <option>Melukis</option>
+                    <option>Coding</option>
+                    <option>Games</option>
                     <option>Mendaki</option>
+                    <option>Musik</option>
+                    <option>Seni</option>
+                    <option>Menari</option>
+                    <option>Bernyanyi</option>
+                    <option>Nonton Film</option>
                     <option>Traveling</option>
+                    <option>Fotografi</option>
                   </select>
                 </div>
               </div>
