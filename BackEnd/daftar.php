@@ -23,80 +23,91 @@
         height: 50px;
       "
     >
-      <div class="container">
-        <button
-          class="navbar p-1"
-          style="margin-left: 90%; background: none; border: none"
-        >
-          <a
-            href="<?php echo base_url('index.php/Welcome/tentangKami') ?>"
-            class="rightTopBar"
-            style="
-              font-size: 12pt;
-              color: white;
-              font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
-                sans-serif;
-              margin-top: 10px;
-            "
-            >Tentang Kami</a
-          >
-        </button>
+      <div class="row">
+        <div class="col-lg-8"></div>
+        <div class="col-lg-3 text-center">
+          <div class="container">
+              <button
+                class="navbar p-1"
+                style="margin-left: 80%; background: none; border: none"
+              >
+                <a
+                  href="TentangKami.html"
+                  class="rightTopBar"
+                  style="
+                    font-size: 12pt;
+                    color: white;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+                      sans-serif;
+                  "
+                  >Tentang Kami</a
+                >
+              </button>
+            </div>
+        </div>
+        <div class="col-lg-1"></div>
       </div>
     </div>
-    <div
-      class="container"
-      style="width: 30%; margin-top: 10%; box-shadow: 0 1px 2px; padding: 30px"
-    >
-      <h4 class="text-center">Daftar</h4>
-      <hr />
-      <form action="<?php echo base_url('index.php/daftar/simpan') ?>" method="post">
-        <div class="form-group">
-          <label for="">Username</label>
-          <input
-            type="text"
-            name="username"
-            class="form-control"
-            placeholder="Username"
-            required=""
-          />
+    <div class="row">
+      <div class="col-lg-4"></div>
+      <div class="col-lg-4">
+        <div
+        class="container"
+        style="margin-top:15%">
+          <h4 class="text-center">Daftar</h4>
+          <hr />
+          <form action="<?php echo base_url('index.php/daftar/simpan') ?>" method="post">
+            <div class="form-group">
+              <label for="">Username</label>
+              <input
+                type="text"
+                name="username"
+                class="form-control"
+                placeholder="Username"
+                required=""
+              />
+            </div>
+            <div class="form-group">
+              <label for="">Email</label>
+              <input type="text" name="email" class="form-control" placeholder="Email"
+                required="" />
+            </div>
+            <div class="form-group">
+              <label for="">Pasword</label>
+              <input
+                type="text"
+                name="password"
+                class="form-control"
+                placeholder="Password"
+                required=""
+              />
+            </div>
+            <span class="daftar">
+              <button
+                type="submit"
+                class="btn btn-primary"
+                style="background-color: rgb(0, 119, 255);padding-left: 40px; padding-right: 40px"
+              >Submit
+              </button></span
+            >
+            
+              <a
+                href="login.html"
+                class="btn btn-primary"
+                style="
+                  color: white;
+                  padding-left: 40px;
+                  padding-right: 40px;
+                  margin-left: 6px;
+                "
+                >Masuk</a
+              >
+          </form>
         </div>
-        <div class="form-group">
-          <label for="">Email</label>
-          <input type="text" name="email" class="form-control" placeholder="Email"
-            required="" />
-        </div>
-        <div class="form-group">
-          <label for="">Pasword</label>
-          <input
-            type="text"
-            name="password"
-            class="form-control"
-            placeholder="Password"
-            required=""
-          />
-        </div>
-        <span class="daftar">
-          <button
-            type="submit"
-            class="btn btn-primary"
-            style="background-color: rgb(0, 119, 255);padding-left: 40px; padding-right: 40px"
-          >Submit
-          </button></span
-        >
-        
-          <a
-            href="<?php echo base_url('index.php/Login/viewLogin') ?>"
-            class="btn btn-primary"
-            style="
-              color: white;
-              padding-left: 40px;
-              padding-right: 40px;
-              margin-left: 6px;
-            "
-            >Masuk</a
-          >
-      </form>
+      </div>
+      <div class="col-lg-4"></div>
     </div>
+    
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
