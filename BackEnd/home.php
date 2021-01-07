@@ -31,15 +31,15 @@
                   tentang hobi yang kamu suka disini. <br>
               </p>
       </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 text-center">
           <img src="<?php echo base_url(); ?>/assets/HCI/hobby.jpeg" alt="" class="w-50 mb4 mb'lg-non" >
         </div>
       </div>
       <div class="row">
         <div class="col-lg-6" >
           <div class="row">
-          <div class="col-lg-4" ></div>
-          <div class="col-lg-8" >
+          <div class="col-lg-2" ></div>
+          <div class="col-lg-8 text-center" style="margin-top:10px;" >
           <a href="<?php echo base_url('index.php/Daftar') ?>" class="btn btn-primary">Daftar</a>
           <a href="<?php echo base_url('index.php/Login/viewLogin') ?>" class="btn btn-primary">Masuk</a></div>
           </div>
